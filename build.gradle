@@ -6,6 +6,7 @@ plugins {
 allprojects {
 	apply plugin: "java-library"
 
+	group = "com.innoq"
 	version = "0.0.1-SNAPSHOT"
 	sourceCompatibility = 17
 
