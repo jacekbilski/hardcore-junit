@@ -1,2 +1,2 @@
-include 'core'
+include 'hardcore-junit'
 include 'test-playground'
