@@ -1,5 +1,11 @@
 dependencies {
-    testImplementation project(":hardcore-junit")
-    testImplementation("org.junit.jupiter:junit-jupiter-api")
-    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
+	testImplementation project(":hardcore-junit")
+	testImplementation("org.junit.jupiter:junit-jupiter-api")
+	testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
+}
+
+test {
+	systemProperties = [
+			'junit.jupiter.extensions.autodetection.enabled': 'true',
+	]
 }
