@@ -10,7 +10,7 @@ public class HardcoreExtension implements BeforeAllCallback {
 	private static final Logger logger = LoggerFactory.getLogger(HardcoreExtension.class);
 
 	@Override
-	public void beforeAll(ExtensionContext context) throws Exception {
+	public void beforeAll(ExtensionContext context) {
 		logger.info(() -> "Hello World!");
 	}
 }
