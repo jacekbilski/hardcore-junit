@@ -11,6 +11,6 @@ public class HardcoreExtension implements BeforeAllCallback {
 
 	@Override
 	public void beforeAll(ExtensionContext context) {
-		logger.info(() -> "Hello World!");
+//		logger.info(() -> "Hello World!");
 	}
 }

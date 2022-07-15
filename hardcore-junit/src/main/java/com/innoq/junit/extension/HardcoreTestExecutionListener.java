@@ -14,7 +14,7 @@ public class HardcoreTestExecutionListener implements TestExecutionListener {
 
 	@Override
 	public void testPlanExecutionStarted(TestPlan testPlan) {
-		logger.info(() -> "testPlanExecutionStarted");
+//		logger.info(() -> "testPlanExecutionStarted");
 	}
 
 	@Override
@@ -34,7 +34,7 @@ public class HardcoreTestExecutionListener implements TestExecutionListener {
 
 	@Override
 	public void executionStarted(TestIdentifier testIdentifier) {
-		logger.info(() -> "executionStarted, testId: " + testIdentifier.getUniqueId());
+//		logger.info(() -> "executionStarted, testId: " + testIdentifier.getUniqueId());
 	}
 
 	@Override

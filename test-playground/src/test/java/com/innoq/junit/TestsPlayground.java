@@ -1,52 +1,58 @@
 package com.innoq.junit;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class TestsPlayground {
 
 	@Test
-	void test1() {
-		Assertions.assertTrue(true);
+	void test1() throws InterruptedException {
+		testBody();
 	}
 
 	@Test
-	void test2() {
-		Assertions.assertTrue(true);
+	void test2() throws InterruptedException {
+		testBody();
 	}
 
 	@Test
-	void test3() {
-		Assertions.assertTrue(true);
+	void test3() throws InterruptedException {
+		testBody();
 	}
 
 	@Test
-	void test4() {
-		Assertions.assertTrue(true);
+	void test4() throws InterruptedException {
+		testBody();
 	}
 
 	@Test
-	void test5() {
-		Assertions.assertTrue(true);
+	void test5() throws InterruptedException {
+		testBody();
 	}
 
 	@Test
-	void test6() {
-		Assertions.assertTrue(true);
+	void test6() throws InterruptedException {
+		testBody();
 	}
 
 	@Test
-	void test7() {
-		Assertions.assertTrue(true);
+	void test7() throws InterruptedException {
+		testBody();
 	}
 
 	@Test
-	void test8() {
-		Assertions.assertTrue(true);
+	void test8() throws InterruptedException {
+		testBody();
 	}
 
 	@Test
-	void test9() {
-		Assertions.assertTrue(true);
+	void test9() throws InterruptedException {
+		testBody();
+	}
+
+	private void testBody() throws InterruptedException {
+		Thread.sleep(1000);
+		assertTrue(true);
 	}
 }
