@@ -1,5 +1,6 @@
 dependencies {
 	implementation "org.junit.jupiter:junit-jupiter-api"
+	implementation "org.junit.platform:junit-platform-launcher"
 }
 
 publishing {
